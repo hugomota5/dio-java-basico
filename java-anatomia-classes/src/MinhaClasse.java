@@ -1,6 +1,16 @@
 public class MinhaClasse {
 
     public static void main(String[] args) {
-        System.out.print("Olá Mundo, sejam bem-vindo!");
+
+        String meuNome = "Hugo";
+
+        int anoFabricacao = 2022; 
+        
+        boolean verdadeira = false;
+
+        // alterar valor 
+        anoFabricacao = 2018;
+
+        System.out.println(anoFabricacao);
     }
 }
